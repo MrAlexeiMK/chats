@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/nick"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:hint="Ваш ник"
+        android:digits="@string/digits"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="onclick"
+        android:text="ОК"
+        android:textSize="36sp" />
+
+</LinearLayout>

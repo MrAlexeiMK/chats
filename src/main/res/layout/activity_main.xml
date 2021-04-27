@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="#F3E03B"
+        android:gravity="center"
+        android:text="Подключение..." />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="337dp" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Ваш ник"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:onClick="changeNickname"
+        android:text="Удалить аккаунт" />
+
+</LinearLayout>

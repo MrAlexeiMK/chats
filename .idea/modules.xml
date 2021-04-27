@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Android.iml" filepath="$PROJECT_DIR$/../Android.iml" group="Android" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidChats.iml" filepath="$PROJECT_DIR$/AndroidChats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" group="Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/chats.iml" filepath="$PROJECT_DIR$/chats.iml" group="Android/chats" />
+    </modules>
+  </component>
+</project>
