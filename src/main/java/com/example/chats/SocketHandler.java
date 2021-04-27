@@ -78,7 +78,7 @@ public class SocketHandler extends Service {
         public void run() {
             while (true) {
                 try {
-                    Socket soc = new Socket("192.168.43.39", 1234);
+                    Socket soc = new Socket("localhost", 1234);
                     sout = new PrintWriter(soc.getOutputStream(), false);
                     sout.print(nickname);
                     sout.flush();

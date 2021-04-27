@@ -42,7 +42,7 @@ class Messages(threading.Thread):
                 return
 
 soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = "192.168.43.39"
+host = "localhost"
 port = 1234
 soc.bind((host, port))
 soc.listen(10)
